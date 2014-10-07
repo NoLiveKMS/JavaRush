@@ -11,7 +11,7 @@ public class Solution
     public static void main(String[] args)
     {
         //исправьте порядок вывода слов
-        String[] words = new String[] {"суицидальная", "миссия ", "любая ", "командую, ", "я ", "Пока "};
+        String[] words = new String[] {"Пока ", "я ", "командую, ", "любая ", "миссия ","суицидальная"};
 
         for (int i = 0; i < words.length; i++)
         {
