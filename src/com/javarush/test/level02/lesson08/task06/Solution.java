@@ -1,8 +1,5 @@
 package com.javarush.test.level02.lesson08.task06;
 
-/**
- * Created by noliv_000 on 08.10.2014.
- */
 /* Вывод текста на экран
 Написать функцию, которая выводит переданную строку (слово) на экран три раза, но в одной строке.
 Слова должны быть разделены пробелом и не должны сливаться в одно.
@@ -12,10 +9,9 @@ public class Solution
     public static void print3(String s)
     {
         for (int i = 0; i < 3; i++){
-            System.out.print(s+" ");
+            System.out.print(s + " ");
         }
-
-        System.out.print("\n");
+        System.out.println();
 
     }
     public static void main(String[] args)

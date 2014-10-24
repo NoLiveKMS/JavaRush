@@ -1,8 +1,5 @@
 package com.javarush.test.level03.lesson04.task02;
 
-/**
- * Created by noliv_000 on 09.10.2014.
- */
 /* Мое имя
 Вывести на экран свое имя 5 строк по 10 раз (через пробел).
 */
@@ -11,18 +8,14 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        String name = "Максим";
+        String name = "Макс";
 
-        for (int i = 0; i<5; i++){
-            System.out.println(enterName(name));
+        for (int i = 0; i < 5; i ++){
+            for (int j = 0; j < 10; j++){
+                System.out.print(name + " ");
+            }
+            System.out.println();
         }
 
-    }
-    
-    public static String enterName (String s){
-        for (int i = 0; i<10; i++){
-            System.out.print(s+" ");
-        }
-        return s;
     }
 }
