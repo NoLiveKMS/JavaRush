@@ -8,7 +8,7 @@ public class Solution
 {
     public static void print3(String s)
     {
-        //Напишите тут ваш код
+        System.out.println(s+" "+s+" "+s);
 
     }
     public static void main(String[] args)
