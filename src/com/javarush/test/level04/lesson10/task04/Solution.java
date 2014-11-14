@@ -9,15 +9,16 @@ public class Solution
 {
     public static void main(String[] args) throws Exception
     {
-        int i = 10;
-        int j = 10;
-
+        int i = 0;
+        int j = 0;
         while (i < 10){
-            System.out.println("S");
+            while (j < 10){
+                System.out.print("S");
+                j++;
+            }
+            System.out.println();
             i++;
-
         }
-
 
     }
 }
